@@ -1,18 +1,18 @@
 .about {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
   background-color: #0a2850;
   background-size: 100%;
-  position: relative;
   display: flex;
+  position: relative;
   box-sizing: border-box;
-  min-height: 450px;
-  z-index: -2;
+  z-index: 1;
+  padding: 100px 80px 173px;
 }
 
 .about__title {
-  position: absolute;
   max-width: 251px;
-  top: 100px;
-  left: 80px;
   color: white;
   margin: 0px;
   font-family: "Inter", Arial, sans-serif;
@@ -22,16 +22,9 @@
   line-height: 52px;
 }
 
-.about__title-divider {
-  display: block;
-}
-
 .about__content {
-  position: absolute;
   max-width: 660px;
-  top: 119px;
-  right: 80px;
-  margin-bottom: 173px;
+  margin-top: 19px;
   display: flex;
   flex-direction: column;
   gap: 20px;

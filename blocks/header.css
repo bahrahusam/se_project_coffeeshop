@@ -11,15 +11,17 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
 .header__image {
   position: absolute;
   width: 646px;
-  height: 548px;
+  height: 568px;
   right: 5px;
   top: 124px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header__title {
@@ -58,6 +60,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: end;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -68,35 +71,4 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  position: relative;
-  width: 105px;
-  height: 39px;
-  left: -50px;
-}
-
-.nav__links {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.2s ease;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
 }
