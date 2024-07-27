@@ -33,14 +33,8 @@
 
 .menu__cards {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
-}
-
-.menu__card-divider {
-  display: flex;
   gap: 100px;
   margin-bottom: 100px;
 }
